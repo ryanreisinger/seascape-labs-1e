@@ -1,9 +1,12 @@
 project:
   type: book
+  output-dir: docs/
+  resources:
+    - .nojekyll
 
 book:
-  title: "seascape-ecology-1e"
-  author: "Norah Jones"
+  title: "Seascape Ecology Labs, First Edition"
+  author: "Ryan Reisinger"
   date: "10/24/2026"
   chapters:
     - index.qmd
